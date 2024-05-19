@@ -1,0 +1,354 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#login{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url("../public//background/pexels-julien-riedel-907961520-19869391.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#login #back{
+    width: 380px;
+    height: 420px;
+    padding: 10px 50px;
+    backdrop-filter: blur(3px);
+    border: 1px solid white;
+    border-radius: 10px;
+}
+#login #back form label{
+    color: white;
+    margin-top: 8px;
+}
+#login input{
+    background-color: transparent;
+    border-radius: 20px;
+    color: white;
+}
+#login h2{
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+#login #forgotpassword{
+    text-align: center;
+    margin-top: 10px;
+}
+#login button{
+    border-radius: 20px;
+}
+#login hr{
+    color: white;
+}
+#login p a{
+    text-decoration: none;
+    color: white;
+}
+#login p a:hover{
+    text-decoration: underline;
+}
+#signup{
+    height: 600px;
+    align-items: center;
+    display: flex;
+}
+#signup h2{
+    text-align: center;
+}
+#signup #acc{
+    text-align: center;
+    margin-top: 14px;
+}
+#signup a{
+    text-decoration: none;
+    font-size: 18px;
+}
+#signup a:hover{
+    text-decoration: underline;
+}
+#header{
+    padding: 10px 0px;
+    background: rgba(0, 0, 0, 0.7);
+    position: sticky;
+    top: 0px;
+    z-index: +2;
+    margin-bottom: 10px;
+}
+#header .container{
+    padding: 0px;
+}
+#header .logout{
+    float: right;
+}
+#header .col-md-8{
+    padding: 0px;
+}
+#header .col-md-4{
+    padding: 0px;
+}
+#header .bi-bag-plus{
+    float: right;
+    color: white;
+    font-size: 30px;
+    margin-right: 12px;
+}
+#header .translate-middle {
+    transform: translate(-74%, -15%) !important;
+}
+#header .badge {
+    font-size: 10px;
+}
+#header img{
+    width: auto;
+    height: 40px;
+    border-radius: 50%;
+}
+#header ul li a{
+    color: white;
+}
+#footer {
+    padding: 50px 0px;
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.881);
+}
+#footer img{
+    width: auto;
+    height: 70px;
+    border-radius: 50%;
+}
+#footer ul{
+    padding: 0px;
+    margin-top: 20px;
+}
+#footer ul a{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+#footer ul a:hover{
+    text-decoration: underline;
+}
+#footer h6{
+    color: dimgray;
+}
+#footer p{
+    color: white;
+}
+#footer span{
+    color: white;
+    font-size: 13px;
+    cursor: pointer;
+}
+#footer span i{
+    color: yellow;
+    font-size: 12px;
+    margin-right: 8px;
+}
+#footer i{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+#footer hr{
+    color: dimgray;
+}
+#footer ul li{
+    text-decoration: none;
+    color: white;
+    list-style-type: none;
+}
+#footer ul li a{
+    color: #93C83f;
+}
+#footer ul li a:hover{
+    color: white;
+}
+#footer #mail{
+    border-right: 1px solid dimgray;
+}
+#mid #addnew{
+    float: right;
+}
+#mid #addnew i{
+    font-size: 22px;
+}
+#mid table th{
+    font-size: 12px;
+}
+#mid table td{
+    font-size: 9px;
+}
+#product #img{
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    object-fit:cover;
+}
+#product img{
+    max-width: 195px;
+    height: 200px;
+    padding: 10px;
+}
+#product .card{
+    height: 625px;
+    margin-top: 10px;
+}
+#product i{
+    font-size: 20px;
+}
+#product #decs{
+    height: 100px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    margin-top: 10px;
+}
+#product #name{
+    height: 60px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+#cart img{
+    width: 50px;
+}
+#details img{
+    width: 200px;
+}
+#details .card{
+    border: none;
+}
+#details .img{
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+#order img{
+    width: 80px;
+}
+#search form{
+    display: flex;
+}
+#contact h1{
+    font-size: 50px;
+    padding: 70px;
+    background: url('../public//background//pexels-andrea-piacquadio-789822.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#contact .col-md-12{
+    padding: 0px;
+}
+#contact #text{
+    padding-top: 100px;
+}
+#contact h2{
+    font-size: 50px;
+}
+#contact #btnGroupAddon2{
+    background: #93C83f;
+}
+#contact #btnGroupAddon2 i{
+    color: white;
+    font-size: 23px;
+}
+#contact .email a{
+    text-decoration: none;
+    color: #93C83f;
+}
+#contact .email a:hover{
+    color: black;
+}
+#contact #email{
+    padding: 100px 0px;
+}
+#contact .btn-success{
+    background: #93C83f;
+}
+#feedback img{
+    width: 100px;
+}
+#about .container{
+    margin-top: 100px;
+}
+#about #off h6{
+    font-weight: bolder;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+#about #off img{
+    width: 100%;
+}
+#about #off p{
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: justify;
+    font-style: italic;
+}
+#about #group h2{
+    font-weight: bolder;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+#about #group p{
+    font-size: 20px;
+    text-align: justify;
+}
+#about #group img{
+    width: 100%;
+}
+#about .img{
+    height: 325px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#about .img img{
+    width: 100%;
+    border-radius: 15%;
+}
+#forgot {
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#forgotpass{
+    height: 550px;
+    display: flex;
+    align-items: center;
+}
+#header .dropdown-menu{
+    height: 300px;
+    width: 350px;
+}
+#header .dropdown-menu li{
+    margin: 10px 20px; 
+}
+#product .bi-bag-plus{
+    font-size: 25px;
+    float: right;
+    cursor: pointer;
+}
+#mid #query{
+    width: 70px;
+    height: 37px;
+    border: 1px solid #198754 ;
+    border-radius: 4px;
+    color: #198754;
+    font-size: 15px;
+}
+#mid #query:hover{
+    background: #198754;
+    border-radius: 4px;
+    color: white;
+    font-size: 15px;
+}
+#tokenres{
+    height: 550px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
